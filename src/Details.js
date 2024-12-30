@@ -122,19 +122,9 @@ export const projectDetails = [
     image: projectImage1,
     description: `- Intégrer du contenu statique et interactif  conforme à une maquette (respect des conventions W3C)
     - Implémenter une interface responsive (vues "mobile", "tablette" et "desktop" via des media queries, approche "mobile first")`,
-    techstack: "HTML/CSS, Figma",
+    techstack: "HTML, CSS, Figma, Git",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Optimisation et débogage - Nina Carducci",
-    image: projectImage2,
-    description: `- Optimiser les performances d’un site web
-    - Débugger un site web grâce aux Chrome DevTools (console, breakpoints, requêtes)
-    - Rédiger un  rapport d'optimisation (performances, accessibilité, SEO)`,
-    techstack: "Lighthouse, GTmetrix",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/V1ct0r-V/Formation_OC-P2-Booki",
   },
   {
     title: "Développement web dynamique - Sophie Bluel",
@@ -142,10 +132,23 @@ export const projectDetails = [
     description: `- Récupérer les données utilisateurs via des formulaires
     - Manipuler les éléments du DOM dynamiquement
     - Gérer les événements utilisateurs`,
-    techstack: "JavaScript",
+    techstack: "JavaScript, Postman, Node.js, npm",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink:
+      "https://github.com/V1ct0r-V/Formation_OC-P3-Architecte_Sophie_Bluel",
   },
+  {
+    title: "Optimisation et débogage - Nina Carducci",
+    image: projectImage2,
+    description: `- Optimiser les performances d’un site web
+    - Débugger un site web grâce aux Chrome DevTools (console, breakpoints, requêtes)
+    - Rédiger un  rapport d'optimisation (performances, accessibilité, SEO)`,
+    techstack: "Lighthouse, GTMetrix, Chrome DevTools, HTML, CSS",
+    previewLink: "https://google.com",
+    githubLink:
+      "https://github.com/V1ct0r-V/Formation_OC-P4-Optimisation_Nina_Carducci",
+  },
+
   {
     title: "Développement d'une web app - Kasa",
     image: projectImage4,
@@ -153,9 +156,9 @@ export const projectDetails = [
     - Configurer la navigation entre les pages de l'application (React Router)
     - Développer des éléments d'interface réutilisable (composants React)
     - Utiliser et gérer les états d’une application (useState, useReducer)`,
-    techstack: "React, Vite",
+    techstack: "React, Vite, Sass, Figma",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/V1ct0r-V/Formation_OC-P5-Refonte_Kasa",
   },
   {
     title: "Développement back-end - Mon Vieux Grimoire",
@@ -163,9 +166,10 @@ export const projectDetails = [
     description: `- Implémenter un modèle logique de données conformément à la réglementation (MongoDB, Mongoose)
     - Mettre en œuvre des opérations CRUD  (Express.js)
     - Assurer la sécurisation de l'authentification utilisateur et de la gestion des données (JWT, bcrypt)`,
-    techstack: "Node.js, MongoDB",
+    techstack: "Node.js, MongoDB, Mongoose",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink:
+      "https://github.com/V1ct0r-V/Formation_OC-P6-Backend_Mon_Vieux_Grimoire",
   },
 ];
 
