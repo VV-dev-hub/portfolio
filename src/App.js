@@ -8,14 +8,14 @@ import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
 function App() {
   return (
-    <Router basename="/portfolio/">
+    <Router basename="/portfolio">
       <Header />
       <Routes>
-        <Route path="" element={<Home />} />
-        <Route path="a-propos" element={<About />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="projets" element={<Projects />} />
-        <Route path="technologies" element={<Technologies />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/a-propos" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/projets" element={<Projects />} />
+        <Route path="/technologies" element={<Technologies />} />
       </Routes>
       <Footer />
     </Router>
