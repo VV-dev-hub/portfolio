@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Formation_OC-P8-Portfolio/static/css/main.81bac2e0.css",
+    "main.js": "/Formation_OC-P8-Portfolio/static/js/main.cd6e87a7.js",
+    "static/media/pp.png": "/Formation_OC-P8-Portfolio/static/media/pp.3014ee5edea866c9bd24.png",
+    "static/media/nodejs.png": "/Formation_OC-P8-Portfolio/static/media/nodejs.b90204bbe91cbb684b4c.png",
+    "static/media/project2.jpg": "/Formation_OC-P8-Portfolio/static/media/project2.5fae296d371cc56cd98a.jpg",
+    "static/media/swagger.png": "/Formation_OC-P8-Portfolio/static/media/swagger.a553c88ebe324532c62a.png",
+    "static/media/project4.jpg": "/Formation_OC-P8-Portfolio/static/media/project4.a7b7ed11daa072b234eb.jpg",
+    "static/media/project3.jpg": "/Formation_OC-P8-Portfolio/static/media/project3.03535c34c110b7ea292b.jpg",
+    "static/media/vite.png": "/Formation_OC-P8-Portfolio/static/media/vite.6c883b683c133d70d474.png",
+    "static/media/mongodb.png": "/Formation_OC-P8-Portfolio/static/media/mongodb.62f6b1e4375f36d6eb26.png",
+    "static/media/lighthouse.png": "/Formation_OC-P8-Portfolio/static/media/lighthouse.1813f7bfb11865c8f34b.png",
+    "static/media/project5.jpg": "/Formation_OC-P8-Portfolio/static/media/project5.f78aa3fd070fc4dd0bd1.jpg",
+    "static/media/notion.png": "/Formation_OC-P8-Portfolio/static/media/notion.7aa264a898951e791ee3.png",
+    "static/media/logo.svg": "/Formation_OC-P8-Portfolio/static/media/logo.8d0b95598f98d6b2a8c5b96937028eee.svg",
+    "static/media/logotransparent.svg": "/Formation_OC-P8-Portfolio/static/media/logotransparent.6846089c06dc142db871a5850af69067.svg",
+    "index.html": "/Formation_OC-P8-Portfolio/index.html",
+    "main.81bac2e0.css.map": "/Formation_OC-P8-Portfolio/static/css/main.81bac2e0.css.map",
+    "main.cd6e87a7.js.map": "/Formation_OC-P8-Portfolio/static/js/main.cd6e87a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81bac2e0.css",
+    "static/js/main.cd6e87a7.js"
+  ]
+}
