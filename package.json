@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://V1ct0r-V.github.io/Formation_OC-P8-Portfolio",
+  "homepage": "https://vv-dev.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -42,8 +42,8 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.14",
-    "tailwindcss": "^3.0.24",
-    "gh-pages": "^5.0.0"
+    "tailwindcss": "^3.0.24"
   }
 }
