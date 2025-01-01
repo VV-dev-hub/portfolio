@@ -16,6 +16,7 @@ function Projects() {
                 title,
                 image,
                 description,
+                competences,
                 techstack,
                 previewLink,
                 githubLink,
@@ -24,6 +25,7 @@ function Projects() {
                   title={title}
                   image={image}
                   description={description}
+                  competences={competences}
                   techstack={techstack}
                   previewLink={previewLink}
                   githubLink={githubLink}

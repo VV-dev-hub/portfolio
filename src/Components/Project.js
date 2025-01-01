@@ -4,25 +4,38 @@ function Project({
   title,
   image,
   description,
+  competences,
   techstack,
-  previewLink,
+  // previewLink,
   githubLink,
 }) {
   return (
     <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
-      <img src={image} alt="" loading="lazy" />
+      <img
+        src={image}
+        alt="site web"
+        loading="lazy"
+        class="w-[600px] h-[427px]  object-cover"
+      />
       <div className="dark:bg-dark-card p-4">
         <h1 className="dark:text-light-heading font-semibold text-lg pt-1">
           {title}
         </h1>
-        <p className="text-content pt-4 font-light">
-          {description.split("\n").map((line, index) => (
-            <React.Fragment key={index}>
-              {line}
-              <br />
-            </React.Fragment>
-          ))}
-        </p>
+        <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
+          Description : <br /> <span className="font-light">{description}</span>
+        </h3>
+        <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
+          Compétences : <br />{" "}
+          <span className="font-light">
+            {competences.split("\n").map((line, index) => (
+              <React.Fragment key={index}>
+                {line}
+                <br />
+              </React.Fragment>
+            ))}
+          </span>
+        </h3>
+        <p className="text-content pt-4 font-light"></p>
 
         <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
           Technologies : <br /> <span className="font-light">{techstack}</span>

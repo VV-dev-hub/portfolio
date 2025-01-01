@@ -25,11 +25,11 @@ import lighthouse from "./assets/techstack/lighthouse.png";
 import swagger from "./assets/techstack/swagger.png";
 import notion from "./assets/techstack/notion.png";
 // Project Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
+import projectImage1 from "./assets/projects/projet1.webp";
+import projectImage2 from "./assets/projects/projet2.webp";
+import projectImage3 from "./assets/projects/projet3.webp";
+import projectImage4 from "./assets/projects/projet4.webp";
+import projectImage5 from "./assets/projects/projet5.webp";
 
 // Logos
 export const logos = {
@@ -120,7 +120,8 @@ export const projectDetails = [
   {
     title: "Intégration web - Booki",
     image: projectImage1,
-    description: `- Intégrer du contenu statique et interactif  conforme à une maquette (respect des conventions W3C)
+    description: `Intégration d’un site statique de locations d'hébergements.`,
+    competences: `- Intégrer du contenu statique et interactif  conforme à une maquette (respect des conventions W3C)
     - Implémenter une interface responsive (vues "mobile", "tablette" et "desktop" via des media queries, approche "mobile first")`,
     techstack: "HTML, CSS, Figma, Git",
     previewLink: "https://google.com",
@@ -129,7 +130,8 @@ export const projectDetails = [
   {
     title: "Développement web dynamique - Sophie Bluel",
     image: projectImage3,
-    description: `- Récupérer les données utilisateurs via des formulaires
+    description: `Transformation d'un site partiellement statique en site dynamique avec JavaScript.`,
+    competences: `- Récupérer les données utilisateurs via des formulaires (connexion, gestionnaire de cartes "projets")
     - Manipuler les éléments du DOM dynamiquement
     - Gérer les événements utilisateurs`,
     techstack: "JavaScript, Postman, Node.js, npm",
@@ -140,9 +142,10 @@ export const projectDetails = [
   {
     title: "Optimisation et débogage - Nina Carducci",
     image: projectImage2,
-    description: `- Optimiser les performances d’un site web
+    description: `Optimisation d’un site web existant.`,
+    competences: `- Optimiser les performances, l'accessibilité et le SEO d’un site web
     - Débugger un site web grâce aux Chrome DevTools (console, breakpoints, requêtes)
-    - Rédiger un  rapport d'optimisation (performances, accessibilité, SEO)`,
+    - Rédiger un  rapport d'optimisation accessible au client`,
     techstack: "Lighthouse, GTMetrix, Chrome DevTools, HTML, CSS",
     previewLink: "https://google.com",
     githubLink:
@@ -152,7 +155,8 @@ export const projectDetails = [
   {
     title: "Développement d'une web app - Kasa",
     image: projectImage4,
-    description: `- Initialiser une application React (Create React App, Vite)
+    description: `Refonte d’un site web existant avec React et Sass.`,
+    competences: `- Initialiser une application React (Create React App, Vite)
     - Configurer la navigation entre les pages de l'application (React Router)
     - Développer des éléments d'interface réutilisable (composants React)
     - Utiliser et gérer les états d’une application (useState, useReducer)`,
@@ -163,7 +167,8 @@ export const projectDetails = [
   {
     title: "Développement back-end - Mon Vieux Grimoire",
     image: projectImage5,
-    description: `- Implémenter un modèle logique de données conformément à la réglementation (MongoDB, Mongoose)
+    description: `Développement du back-end d'un site de notation de livres.`,
+    competences: `- Implémenter un modèle logique de données conformément à la réglementation (MongoDB, Mongoose)
     - Mettre en œuvre des opérations CRUD  (Express.js)
     - Assurer la sécurisation de l'authentification utilisateur et de la gestion des données (JWT, bcrypt)`,
     techstack: "Node.js, MongoDB, Mongoose",
