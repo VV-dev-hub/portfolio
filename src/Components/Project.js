@@ -15,7 +15,7 @@ function Project({
         src={image}
         alt="site web"
         loading="lazy"
-        class="w-[600px] h-[427px]  object-cover"
+        class="w-[600px] h-[337px]  object-cover"
       />
       <div className="dark:bg-dark-card p-4">
         <h1 className="dark:text-light-heading font-semibold text-lg pt-1">
@@ -38,7 +38,17 @@ function Project({
         <p className="text-content pt-4 font-light"></p>
 
         <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
-          Technologies : <br /> <span className="font-light">{techstack}</span>
+          Technologies : <br />
+          <div className="flex flex-wrap gap-2 pt-2">
+            {techstack.split(", ").map((tech, index) => (
+              <span
+                key={index}
+                className="px-3 py-1 text-sm font-semibold text-white bg-blue-600 rounded-full"
+              >
+                {tech}
+              </span>
+            ))}
+          </div>
         </h3>
         <div className="flex justify-between items-center mt-5">
           {/* <div className="flex items-center">

@@ -5,6 +5,7 @@ import { logos, socialMediaUrl } from "../Details";
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const { linkedin, github } = socialMediaUrl;
+
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
@@ -34,36 +35,33 @@ function Header() {
         </div>
       </div>
       <nav
-        className={` ${
+        className={`${
           !isOpen ? "hidden" : null
         } text-center md:flex justify-between`}
       >
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
-          <li className="pb-1 md:pb-0">
-            <NavLink to="/" onClick={toggleClass}>
-              Accueil
-            </NavLink>
-          </li>
-          <li className="pb-1 md:pb-0">
-            <NavLink to="/a-propos" onClick={toggleClass}>
-              A propos
-            </NavLink>
-          </li>
-          <li className="pb-1 md:pb-0">
-            <NavLink to="/technologies" onClick={toggleClass}>
-              Technologies
-            </NavLink>
-          </li>
-          <li className="pb-1 md:pb-0">
-            <NavLink to="/projets" onClick={toggleClass}>
-              Projets
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact" onClick={toggleClass}>
-              Contact
-            </NavLink>
-          </li>
+          {[
+            { label: "Accueil", to: "/" },
+            { label: "A propos", to: "/a-propos" },
+            { label: "Technologies", to: "/technologies" },
+            { label: "Projets", to: "/projets" },
+            { label: "Contact", to: "/contact" },
+          ].map((item, index) => (
+            <li key={index} className="relative pb-1 md:pb-0 group">
+              <NavLink
+                to={item.to}
+                onClick={toggleClass}
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-blue-600 dark:text-blue-400 font-semibold"
+                    : "text-dark-heading dark:text-light-heading"
+                }
+              >
+                {item.label}
+              </NavLink>
+              <span className="absolute bottom-[-4px] left-0 w-0 h-0.5 bg-blue-600 dark:bg-blue-400 transition-all duration-300 group-hover:w-full"></span>
+            </li>
+          ))}
         </ul>
         <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
           <li>
