@@ -1,54 +1,54 @@
-# React Developer Portfolio template
+# Portfolio Web Application
 
-#### Live Demo https://react-portfolio-v1.netlify.app/
+Ce dépôt contient le code d'un portfolio conçu pour mettre en avant vos projets, vos compétences, et votre expérience professionnelle.
+Il est issu d'un retravail du dépôt [React-Portfolio-V1.0](https://github.com/thanurarukshan/React-Portfolio-V1.0) par Thanura Rukshan.
 
-#### Figma Design https://www.figma.com/community/file/1116246660507537002
+## 🖥️ Démo en ligne
 
-## Follow Below instructions to add your deatils in the portfolio.
+[Voir le site en direct](https://v1ct0r-v.github.io/portfolio/)
 
-### Change and customize every section according to your need, All you need to do is edit `/src/Details.js`
+## 🛠️ Technologies utilisées
 
-#### Open `/src/Details.js` & modify it as per your need.
+- **Frontend** : React, TailwindCSS
+- **Outils** : PostCSS, Vite
+- **Gestion des dépendances** : npm
+- **Hébergement** : Github pages
 
-```javascript
-/ Enter your Personal Details here
-export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
-  img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
-};
+## 💂️ Structure du projet
 
-// Enter your Social Media URLs here
-export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
-};
-
-// Enter your Work Experience here
-export const workDetails = [
-  {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
-  }
-];
-
-// Enter your Education Details here
-export const eduDetails = { ... };
-
-// Tech Stack and Tools
-export const techStackDetails = { ... };
-
-// Enter your Project Details here
-export const projectDetails = [ ... ];
-
-// Enter your Contact Details here
-export const contactDetails = { ... };
 ```
+portfolio-master/
+├── public/                 # Fichiers publics (favicon, images statiques, etc.)
+├── src/                    # Code source principal
+│   ├── components/         # Composants réutilisables
+│   ├── pages/              # Pages principales
+│   ├── styles/             # Fichiers de style
+│   └── App.jsx             # Composant principal de l'application
+├── tailwind.config.js      # Configuration de TailwindCSS
+├── package.json            # Gestion des dépendances et scripts
+└── README.md               # Documentation du projet
+```
+
+## 🚀 Installation et utilisation
+
+1. **Clonez le dépôt** :
+   ```bash
+   git clone https://github.com/V1ct0r-V/portfolio.git
+   cd portfolio-master
+   ```
+
+2. **Installez les dépendances** :
+   ```bash
+   npm install
+   ```
+
+3. **Lancez le serveur de développement** :
+   ```bash
+   npm run dev
+   ```
+
+4. **Construisez le projet pour la production** :
+   ```bash
+   npm run build
+   ```
+
