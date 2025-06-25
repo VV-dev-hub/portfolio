@@ -1,0 +1,64 @@
+// Variables
+$color-dark-content: #1F2937;
+$color-light-content: #F3F4F6;
+$gradient-colors: linear-gradient(to right, #0ea5e9, #8b5cf6, #ec4899);
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  color: $color-dark-content;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+
+  &::-webkit-scrollbar {
+    display: none; // Hide scrollbar for Chrome, Safari and Opera
+  }
+}
+
+// Container with responsive padding
+.max-width {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1.25rem;
+
+  @media (min-width: 1024px) {
+    padding: 0 6rem;
+  }
+
+  @media (min-width: 1280px) {
+    padding: 0 12rem;
+  }
+}
+
+// Background gradient
+.bg-gradient {
+  background-image: $gradient-colors;
+}
+
+// Text gradient
+.text-gradient {
+  background: $gradient-colors;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+// Section padding
+.section {
+  padding-top: 7rem;
+
+  @media (min-width: 1536px) {
+    padding-top: 11rem;
+  }
+}
+
+// Text color with dark mode support
+.text-content {
+  color: $color-dark-content;
+
+  @media (prefers-color-scheme: dark) {
+    color: $color-light-content;
+  }
+}

@@ -1,0 +1,128 @@
+@import '../../styles/base/variables';
+@import '../../styles/base/mixins';
+
+.intro-section {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include respond-to(phone) {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-text {
+    margin-inline: auto;
+}
+
+.intro-title,
+.intro-name {
+    display: inline-block;
+}
+
+.intro-title {
+    font-size: 1.5rem;
+    color: var(--color-heading);
+    font-weight: bold;
+    line-height: normal;
+
+    @include respond-to(tablet) {
+        font-size: 2.25rem;
+    }
+
+    @include respond-to(desktop) {
+        font-size: 2.25rem
+    }
+
+    @include respond-to(large_desktop) {
+        font-size: 3rem;
+        line-height: 1.25;
+    }
+
+
+}
+
+.intro-name {
+    background: linear-gradient(to right, #3b82f6, #8b5cf6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    line-height: normal;
+    font-weight: bold;
+
+    @include respond-to(tablet) {
+        font-size: 2.25rem;
+    }
+
+    @include respond-to(desktop) {
+        font-size: 2.25rem;
+    }
+
+    @include respond-to(large_desktop) {
+        font-size: 3rem;
+        line-height: 1.375;
+    }
+}
+
+
+.intro-tagline {
+    color: var(--color-sub-heading);
+    font-size: 1.5rem;
+    line-height: normal;
+
+
+    @include respond-to(tablet) {
+        font-size: 1.875rem;
+    }
+
+    @include respond-to(desktop) {
+        font-size: 1.875rem;
+    }
+
+    @include respond-to(large_desktop) {
+        font-size: 2.25rem;
+    }
+}
+
+
+.intro-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    max-width: 100%;
+
+    & img {
+        height: auto;
+        width: 90%;
+        aspect-ratio: 1 / 1;
+        margin-inline: auto;
+
+        @include respond-to(tablet) {
+            width: 70%;
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        @include respond-to(desktop) {
+            width: 50%;
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        @include respond-to(large_desktop) {
+            width: 50%;
+            margin-left: auto;
+            margin-right: 0;
+        }
+    }
+}

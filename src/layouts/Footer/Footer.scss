@@ -1,0 +1,19 @@
+@import "../../styles/themes/dark.scss";
+@import "../../styles/themes/light.scss";
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 0.25rem 0;
+    background-color: var(--color-bg);
+    text-align: center;
+
+    .footer__text {
+        font-size: 0.75rem;
+        color: var(--color-text);
+        width: 100%;
+    }
+}

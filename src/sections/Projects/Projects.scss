@@ -1,0 +1,14 @@
+@import '../../styles/base/mixins';
+
+.projects {
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 2.5rem;
+
+        @include respond-to(phone) {
+            grid-template-columns: 1fr;
+        }
+    }
+}
