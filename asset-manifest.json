@@ -1,27 +1,40 @@
 {
   "files": {
-    "main.css": "/static/css/main.9dfc5245.css",
-    "main.js": "/static/js/main.acd90cb6.js",
+    "main.css": "/static/css/main.916b5d09.css",
+    "main.js": "/static/js/main.175adda8.js",
     "static/media/projet4.webp": "/static/media/projet4.467d52c9c3aac12efbe4.webp",
-    "static/media/pp.png": "/static/media/pp.3014ee5edea866c9bd24.png",
     "static/media/projet5.webp": "/static/media/projet5.742e108a5cb168eba267.webp",
     "static/media/projet1.webp": "/static/media/projet1.26f0d5dd4a1595c6edbd.webp",
     "static/media/projet2.webp": "/static/media/projet2.502e0684db8d46c836fa.webp",
+    "static/media/pp.webp": "/static/media/pp.392f50024b52d512076d.webp",
     "static/media/projet3.webp": "/static/media/projet3.f093817821cba3f8b3f7.webp",
-    "static/media/nodejs.png": "/static/media/nodejs.b90204bbe91cbb684b4c.png",
-    "static/media/swagger.png": "/static/media/swagger.a553c88ebe324532c62a.png",
-    "static/media/vite.png": "/static/media/vite.6c883b683c133d70d474.png",
-    "static/media/mongodb.png": "/static/media/mongodb.62f6b1e4375f36d6eb26.png",
-    "static/media/lighthouse.png": "/static/media/lighthouse.1813f7bfb11865c8f34b.png",
-    "static/media/notion.png": "/static/media/notion.7aa264a898951e791ee3.png",
+    "static/media/lighthouse.webp": "/static/media/lighthouse.0f79094e5d3a0e07ae63.webp",
+    "static/media/mongodb.webp": "/static/media/mongodb.5cb09355d2d8516acbe3.webp",
+    "static/media/nodejs.webp": "/static/media/nodejs.f0fba4db6a41b1f44d27.webp",
+    "static/media/swagger.webp": "/static/media/swagger.5136abdb3b195189168b.webp",
+    "static/media/vite.webp": "/static/media/vite.c4687f52c48551750919.webp",
     "static/media/logo.svg": "/static/media/logo.8d0b95598f98d6b2a8c5b96937028eee.svg",
     "static/media/logotransparent.svg": "/static/media/logotransparent.6846089c06dc142db871a5850af69067.svg",
+    "static/media/notion.webp": "/static/media/notion.d6ea20c9550111012f8c.webp",
+    "static/media/css.webp": "/static/media/css.b7be60fc5346a81b8e5c.webp",
+    "static/media/html.webp": "/static/media/html.5eb0d7f498141c8e3091.webp",
+    "static/media/git.webp": "/static/media/git.debdb9fb34a105f0103d.webp",
+    "static/media/react.webp": "/static/media/react.a55302e28cb7c86faf0a.webp",
+    "static/media/js.webp": "/static/media/js.18554a7b6e6efedd05f7.webp",
+    "static/media/sass.webp": "/static/media/sass.b8ece6c268cc11f0e7f7.webp",
+    "static/media/figma.webp": "/static/media/figma.9b99b3b77fbaa0835425.webp",
     "index.html": "/index.html",
-    "main.9dfc5245.css.map": "/static/css/main.9dfc5245.css.map",
-    "main.acd90cb6.js.map": "/static/js/main.acd90cb6.js.map"
+    "static/media/bootstrap.webp": "/static/media/bootstrap.bc530d0ba525fc7690d0.webp",
+    "static/media/vscode.webp": "/static/media/vscode.9fd94e916d016e65db4b.webp",
+    "static/media/postman.webp": "/static/media/postman.e08df0c28285301a77d7.webp",
+    "static/media/github.webp": "/static/media/github.7b94263be8e73a586596.webp",
+    "static/media/tailwind.webp": "/static/media/tailwind.f29081590cf4445100cf.webp",
+    "static/media/npm.webp": "/static/media/npm.fc1666b29d155e9bfc60.webp",
+    "main.916b5d09.css.map": "/static/css/main.916b5d09.css.map",
+    "main.175adda8.js.map": "/static/js/main.175adda8.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dfc5245.css",
-    "static/js/main.acd90cb6.js"
+    "static/css/main.916b5d09.css",
+    "static/js/main.175adda8.js"
   ]
 }
